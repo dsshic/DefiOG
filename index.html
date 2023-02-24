@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="next-head-count" content="2" />
+    <title>Sonne Finance</title>
+    <link
+      rel="preload"
+      href="/_next/static/css/b7c34a9fac9e7955.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/b7c34a9fac9e7955.css"
+      data-n-g=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-84209fb2022d3d30.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-4bae2c966b0001c5.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-90e6283874a95689.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-38f2134171d90561.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/221-e916e5931204c2e1.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/126-c9bd0bfc7eab273d.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/465-a3a4b1dca4e9981e.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/index-f5e0650ddfd9e86d.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/tl-yOe1VKoXIZTBijylVR/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/tl-yOe1VKoXIZTBijylVR/_ssgManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="min-w-full">
+        <div class="bg-primary">
+          <div class="w-full h-16 flex px-4">
+            <div class="w-full relative flex items-center justify-between">
+              <div
+                class="absolute inset-y-0 right-0 flex items-center lg:hidden gap-4"
+              >
+                <button
+                  class="text-neutral px-4 py-2 rounded-2xl border-middle border-[1px] w-40 hover:bg-middle"
+                >
+                  Connect Wallet
+                </button>
+                <div
+                  style="
+                    position: fixed;
+                    z-index: 9999;
+                    top: 16px;
+                    left: 16px;
+                    right: 16px;
+                    bottom: 16px;
+                    pointer-events: none;
+                  "
+                ></div>
+                <button
+                  class="inline-flex items-center justify-center rounded-md text-light"
+                >
+                  <span class="sr-only">Open main menu</span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="block h-6 w-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="w-24">
+                <img
+                  class="block cursor-pointer"
+                  src="/logo.png"
+                  width="84"
+                  height="24"
+                  alt="logo"
+                />
+              </div>
+              <div
+                class="lg:flex gap-4 lg:gap-8 hidden lg:translate-x-4 xl:translate-x-16"
+              >
+                <a class="text-middle cursor-pointer" href="/">Lending</a
+                ><a class="text-light cursor-pointer" href="/markets/"
+                  >Markets</a
+                ><a class="text-light cursor-pointer" href="/portfolio/"
+                  >Portfolio</a
+                ><a class="text-light cursor-pointer" href="/stake/sSonne/"
+                  >Stake</a
+                ><a class="text-light cursor-pointer" href="/swap/">Swap</a
+                ><a class="text-light cursor-pointer" href="/claim/">Claim</a
+                ><a class="text-light cursor-pointer" href="/lge/">LGE</a>
+              </div>
+              <div class="hidden lg:flex items-center gap-4 w-72 justify-end">
+                <button
+                  class="text-neutral px-4 py-2 rounded-2xl border-middle border-[1px] w-40 hover:bg-middle"
+                >
+                  Connect Wallet
+                </button>
+                <div
+                  style="
+                    position: fixed;
+                    z-index: 9999;
+                    top: 16px;
+                    left: 16px;
+                    right: 16px;
+                    bottom: 16px;
+                    pointer-events: none;
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-screen md:w-full flex justify-center pt-10">
+          <div class="max-w-custom w-full px-4 xl:p-0">
+            <div class="flex flex-wrap md:hidden">
+              <div class="w-full">
+                <ul
+                  class="flex list-none flex-wrap flex-row mb-12"
+                  role="tablist"
+                >
+                  <li class="flex-auto text-center">
+                    <a
+                      class="w-full pb-4 text-xl leading-5 block border-b-light text-light border-b-2 font-light"
+                      data-toggle="tab"
+                      href="#link1"
+                      role="tablist"
+                      >Supply</a
+                    >
+                  </li>
+                  <li class="flex-auto text-center">
+                    <a
+                      class="w-full pb-4 text-xl leading-5 block font-thin text-neutral"
+                      data-toggle="tab"
+                      href="#link1"
+                      role="tablist"
+                      >Borrow</a
+                    >
+                  </li>
+                </ul>
+                <div
+                  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
+                >
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="tab-content tab-space">
+                      <div class="block" id="link1">
+                        <div class="w-full">
+                          <div class="text-neutral flex items-center mb-10">
+                            <div class="flex flex-col gap-1 ml-0.5">
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                            </div>
+                            <div>
+                              <p class="text-[24px] pl-7">
+                                Supply Assets<span></span
+                                ><span class="text-light"></span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="w-full">
+                            <div class="py-4 rounded-2xl px-7 bg-supplyBase">
+                              <div class="flex justify-center">
+                                <div class="mb-6 mt-2 w-full">
+                                  <div
+                                    class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                                  >
+                                    <div class="flex items-center w-full">
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="#FDA669"
+                                        class="bi bi-search mx-4"
+                                        viewBox="0 0 16 16"
+                                      >
+                                        <path
+                                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                        ></path></svg
+                                      ><input
+                                        type="search"
+                                        class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="overflow-x-auto">
+                                <table class="w-full">
+                                  <thead class="h-16">
+                                    <tr>
+                                      <th
+                                        class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Asset
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Supply Apy
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Reward Apr
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right"
+                                      >
+                                        <!-- -->Wallet
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody></tbody>
+                                  <tfoot>
+                                    <tr>
+                                      <td
+                                        colspan="4"
+                                        class="text-center text-neutral text-sm font-extralight"
+                                      >
+                                        There are no records to display
+                                      </td>
+                                    </tr>
+                                  </tfoot>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hidden" id="link2">
+                        <div class="w-full">
+                          <div class="text-neutral flex items-center mb-10">
+                            <div class="flex flex-col gap-1 ml-0.5">
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                              <div class="h-2 w-1 bg-light rounded-md"></div>
+                            </div>
+                            <div>
+                              <p class="text-[24px] pl-7">
+                                Borrow Assets<span></span
+                                ><span class="text-light"></span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="w-full">
+                            <div class="py-4 rounded-2xl px-7 bg-borrowBase">
+                              <div class="flex justify-center">
+                                <div class="mb-6 mt-2 w-full">
+                                  <div
+                                    class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                                  >
+                                    <div class="flex items-center w-full">
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="#FDA669"
+                                        class="bi bi-search mx-4"
+                                        viewBox="0 0 16 16"
+                                      >
+                                        <path
+                                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                        ></path></svg
+                                      ><input
+                                        type="search"
+                                        class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="overflow-x-auto">
+                                <table class="w-full">
+                                  <thead class="h-16">
+                                    <tr>
+                                      <th
+                                        class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Asset
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Borrow Apy
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                      >
+                                        <!-- -->Reward Apr
+                                      </th>
+                                      <th
+                                        class="text-table-header text-neutral text-right"
+                                      >
+                                        <!-- -->Liquidity
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody></tbody>
+                                  <tfoot>
+                                    <tr>
+                                      <td
+                                        colspan="4"
+                                        class="text-center text-neutral text-sm font-extralight"
+                                      >
+                                        There are no records to display
+                                      </td>
+                                    </tr>
+                                  </tfoot>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex justify-center">
+              <div class="gap-12 hidden lg:flex w-full">
+                <div class="w-full">
+                  <div class="flex gap-6">
+                    <div class="flex-1"></div>
+                    <div class="flex-1"></div>
+                  </div>
+                  <div class="flex gap-6">
+                    <div class="w-full">
+                      <div class="text-neutral flex items-center mb-10">
+                        <div class="flex flex-col gap-1 ml-0.5">
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                        </div>
+                        <div>
+                          <p class="text-[24px] pl-7">
+                            Supply Assets<span></span
+                            ><span class="text-light"></span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="w-full">
+                        <div class="py-4 rounded-2xl px-7 bg-supplyBase">
+                          <div class="flex justify-center">
+                            <div class="mb-6 mt-2 w-full">
+                              <div
+                                class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                              >
+                                <div class="flex items-center w-full">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="#FDA669"
+                                    class="bi bi-search mx-4"
+                                    viewBox="0 0 16 16"
+                                  >
+                                    <path
+                                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                    ></path></svg
+                                  ><input
+                                    type="search"
+                                    class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="overflow-x-auto">
+                            <table class="w-full">
+                              <thead class="h-16">
+                                <tr>
+                                  <th
+                                    class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Asset
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Supply Apy
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Reward Apr
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right"
+                                  >
+                                    <!-- -->Wallet
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody></tbody>
+                              <tfoot>
+                                <tr>
+                                  <td
+                                    colspan="4"
+                                    class="text-center text-neutral text-sm font-extralight"
+                                  >
+                                    There are no records to display
+                                  </td>
+                                </tr>
+                              </tfoot>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full">
+                      <div class="text-neutral flex items-center mb-10">
+                        <div class="flex flex-col gap-1 ml-0.5">
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                          <div class="h-2 w-1 bg-light rounded-md"></div>
+                        </div>
+                        <div>
+                          <p class="text-[24px] pl-7">
+                            Borrow Assets<span></span
+                            ><span class="text-light"></span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="w-full">
+                        <div class="py-4 rounded-2xl px-7 bg-borrowBase">
+                          <div class="flex justify-center">
+                            <div class="mb-6 mt-2 w-full">
+                              <div
+                                class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                              >
+                                <div class="flex items-center w-full">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="#FDA669"
+                                    class="bi bi-search mx-4"
+                                    viewBox="0 0 16 16"
+                                  >
+                                    <path
+                                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                    ></path></svg
+                                  ><input
+                                    type="search"
+                                    class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="overflow-x-auto">
+                            <table class="w-full">
+                              <thead class="h-16">
+                                <tr>
+                                  <th
+                                    class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Asset
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Borrow Apy
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                                  >
+                                    <!-- -->Reward Apr
+                                  </th>
+                                  <th
+                                    class="text-table-header text-neutral text-right"
+                                  >
+                                    <!-- -->Liquidity
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody></tbody>
+                              <tfoot>
+                                <tr>
+                                  <td
+                                    colspan="4"
+                                    class="text-center text-neutral text-sm font-extralight"
+                                  >
+                                    There are no records to display
+                                  </td>
+                                </tr>
+                              </tfoot>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gap-12 hidden md:grid lg:hidden w-full">
+                <div class="w-full">
+                  <div class="text-neutral flex items-center mb-10">
+                    <div class="flex flex-col gap-1 ml-0.5">
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                    </div>
+                    <div>
+                      <p class="text-[24px] pl-7">
+                        Supply Assets<span></span
+                        ><span class="text-light"></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <div class="py-4 rounded-2xl px-7 bg-supplyBase">
+                      <div class="flex justify-center">
+                        <div class="mb-6 mt-2 w-full">
+                          <div
+                            class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                          >
+                            <div class="flex items-center w-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="#FDA669"
+                                class="bi bi-search mx-4"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                ></path></svg
+                              ><input
+                                type="search"
+                                class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                placeholder="Search"
+                                aria-label="Search"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="overflow-x-auto">
+                        <table class="w-full">
+                          <thead class="h-16">
+                            <tr>
+                              <th
+                                class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                              >
+                                <!-- -->Asset
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                              >
+                                <!-- -->Supply Apy
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                              >
+                                <!-- -->Reward Apr
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right"
+                              >
+                                <!-- -->Wallet
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                          <tfoot>
+                            <tr>
+                              <td
+                                colspan="4"
+                                class="text-center text-neutral text-sm font-extralight"
+                              >
+                                There are no records to display
+                              </td>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <div class="text-neutral flex items-center mb-10">
+                    <div class="flex flex-col gap-1 ml-0.5">
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                      <div class="h-2 w-1 bg-light rounded-md"></div>
+                    </div>
+                    <div>
+                      <p class="text-[24px] pl-7">
+                        Borrow Assets<span></span
+                        ><span class="text-light"></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <div class="py-4 rounded-2xl px-7 bg-borrowBase">
+                      <div class="flex justify-center">
+                        <div class="mb-6 mt-2 w-full">
+                          <div
+                            class="input-group relative flex flex-wrap items-stretch w-full rounded-full bg-background h-8"
+                          >
+                            <div class="flex items-center w-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="#FDA669"
+                                class="bi bi-search mx-4"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                ></path></svg
+                              ><input
+                                type="search"
+                                class="bg-transparent w-full focus:outline-none text-neutral font-light text-lg placeholder:font-thin placeholder:opacity-40 placeholder:text-light"
+                                placeholder="Search"
+                                aria-label="Search"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="overflow-x-auto">
+                        <table class="w-full">
+                          <thead class="h-16">
+                            <tr>
+                              <th
+                                class="text-table-header text-neutral text-left px-3 py-4 pr-8 md:pr-4"
+                              >
+                                <!-- -->Asset
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                              >
+                                <!-- -->Borrow Apy
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right pr-8 md:pr-4"
+                              >
+                                <!-- -->Reward Apr
+                              </th>
+                              <th
+                                class="text-table-header text-neutral text-right"
+                              >
+                                <!-- -->Liquidity
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                          <tfoot>
+                            <tr>
+                              <td
+                                colspan="4"
+                                class="text-center text-neutral text-sm font-extralight"
+                              >
+                                There are no records to display
+                              </td>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer
+              class="w-full text-white items-center grid grid-col-2 sm:grid-cols-4 px-4 grid-rows-2 gap-10 font-extralight text-lg my-16 mt-28"
+            >
+              <div
+                class="col-span-2 row-span-2 flex flex-col items-start h-full"
+              >
+                <div class="pb-6"><img src="/logo.png" alt="logo" /></div>
+                <p class="text-footer">
+                  Sonne Finance is a decentralized lending protocol for
+                  individuals, institutions and protocols to access financial
+                  services. It is a permissionless, open source and Optimistic
+                  protocol serving users on Optimism. Users can deposit their
+                  assets, use them as collateral and borrow against them.
+                </p>
+              </div>
+              <div class="flex flex-col items-start h-full">
+                <h6 class="text-light pb-6">App</h6>
+                <a href="/">Lending</a><a href="/stake/">Stake</a
+                ><a href="/lge/">LGE</a>
+              </div>
+              <div class="flex flex-col items-start h-full">
+                <h6 class="text-light pb-6">Docs</h6>
+                <a
+                  href="https://docs.sonne.finance/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >Documents</a
+                ><a
+                  href="https://github.com/sonne-finance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >GitHub</a
+                ><a
+                  href="https://medium.com/@SonneFinance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >Medium</a
+                >
+              </div>
+              <div class="flex flex-col items-start h-full">
+                <h6 class="text-light pb-6">Community</h6>
+                <a
+                  href="https://discord.gg/sonnefinance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >Discord</a
+                ><a
+                  href="https://t.me/SonneFin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >Telegram</a
+                >
+              </div>
+              <div class="flex flex-col items-start h-full">
+                <h6 class="text-light pb-6">Social</h6>
+                <a
+                  href="https://twitter.com/SonneFinance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cursor-pointer"
+                  >Twitter</a
+                >
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div
+          style="
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+            display: none;
+          "
+        ></div>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/",
+        "query": {},
+        "buildId": "tl-yOe1VKoXIZTBijylVR",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+  </body>
+</html>
